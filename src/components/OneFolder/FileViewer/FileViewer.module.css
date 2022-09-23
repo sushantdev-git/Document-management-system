@@ -1,0 +1,50 @@
+.FileViewer{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    transition: all 0.3s;
+}
+
+.Visible{
+    transform: translateX(0%);
+}
+
+
+.TitleAndActions{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Title{
+    display: flex;
+    align-items: center;
+}
+
+.Manage{
+    border: 1px solid green;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Manage:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+
+.ActionButtons{
+    display: flex;
+}
+
+.ActionButtons div{
+    margin: 0px 20px;
+}

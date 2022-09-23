@@ -1,0 +1,9 @@
+.FileItem{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: grey;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,85 @@
+.DatabaseFiles{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    padding: 0px 20px;
+    position: relative;
+}
+
+
+.TitleAndActions{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Title{
+    display: flex;
+    align-items: center;
+}
+
+.Button{
+    border: 1px solid green;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.Button:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.Files{
+    padding: 20px;
+}
+
+.FileItems{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Actions{
+    display: flex;
+}
+
+.FileUpload{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.Inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.Inputs input{
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.Inputs button{
+    height: 50px;
+    font-size: 20px;
+}
+
+.ShareFolder{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.CheckBoxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

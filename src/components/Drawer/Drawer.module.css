@@ -1,0 +1,48 @@
+.Drawer{
+    width: 20%;
+    height: 100%;
+    background-color: #0B150F;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.DrawerItems{
+    flex: 1;
+}
+
+.Account{
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    padding: 15px
+}
+
+.UserImage{
+    height: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVX4_FwlM_Xo3ru4-AQPtR9LA85bXKLqkYFQ&usqp=CAU");
+    width: 50px;
+    background-size: contain;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+.UserAddress{
+    display: flex;
+    flex-direction: column;
+}
+
+.UserAddress p{
+    margin: 0;
+}
+
+.UserAddress p:first-child{
+    font-size: 20px;
+}
+
+.UserAddress p:nth-child(2){
+    color: grey;
+    font-size: 14px;
+}
